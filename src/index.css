@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #232323;
+}
+.div-list{
+    padding: 0.8rem;
+    background-image:linear-gradient(120deg, #dcdf31 0%, #a42eda 40%, #1f5f9b 100%) ; 
+    -webkit-box-shadow: 2px 2px 30px 2px rgba(247, 247, 247, 0.76);
+    -moz-box-shadow: 2px 2px 30px 2px rgba(252, 252, 252, 0.56);
+    box-shadow: 2px 2px 30px 2px rgba(236, 236, 236, 0.56);
+    border-radius: 1rem;
+}
+.btn-hover:hover {
+    transform: scale(1.3);
+    color: rgb(219, 57, 57);
+    transition: 0.3s;
+}
+.margin-add{
+    margin-top: 3%;
+}
+
